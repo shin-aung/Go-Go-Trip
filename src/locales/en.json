@@ -8,6 +8,25 @@
     "description": "Plan unforgettable journeys with your loved ones. We make travel personal, joyful, and easy for families and friends.",
     "buttontext": "Explore Now"
   },  
+  "about": {
+    "title": "About Us",
+    "sectionOne": {
+      "title": "Explore the World",
+      "content": "Discover breathtaking destinations handpicked just for you. From sun-kissed beaches to snow-capped mountains, your next adventure awaits."
+    },
+    "sectionTwo": {
+      "title": "Tailor-Made Tours",
+      "content": "Create your dream itinerary with our expert travel planners. Whether you want luxury escapes, budget backpacking, or cultural immersions, we’ve got you covered."
+    },
+    "sectionThree": {
+      "title": "24/7 Support",
+      "content": "Travel with confidence knowing our dedicated support team is available around the clock to help with bookings, changes, or any unexpected hiccups."
+    },
+    "sectionFour": {
+      "title": "Best Price Guarantee",
+      "content": "Get the most value for your money—enjoy competitive pricing on flights, hotels, and experiences, with no hidden fees ever."
+    }
+  },
   "navBar": {
     "home": "Home"
   },
