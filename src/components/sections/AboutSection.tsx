@@ -30,7 +30,7 @@ const AboutSection = async () => {
             key={index}
             className="p-6 border rounded-2xl shadow-md bg-gray-50 hover:shadow-lg transition"
           >
-            <div className="flex items-center gap-3 mb-4 text-primary">
+            <div className="flex items-center gap-3 mb-4">
               <div className="w-6 h-6">{section.icon}</div>
               <h2>{section.title}</h2>
             </div>

@@ -3,6 +3,11 @@
     "title": "GO GO TRIP",
     "description": "GO GO TRIP is a private traveling agency which plan trip for family and friends who do not want to go with strangers"
   },
+    "navBar": {
+    "home": "Home",
+    "about": "About",
+    "tripPackages": "Packages"
+  },
   "banner": {
     "title": "Explore the World",
     "description": "Plan unforgettable journeys with your loved ones. We make travel personal, joyful, and easy for families and friends.",
@@ -27,8 +32,14 @@
       "content": "Get the most value for your money—enjoy competitive pricing on flights, hotels, and experiences, with no hidden fees ever."
     }
   },
-  "navBar": {
-    "home": "Home"
+  "tripPackages": {
+    "title": "TRIP PACKAGES",
+    "tripPackageOne": {
+      "title": "Thailand to ChiangMai",
+      "dateAndTime": "3 nights/ 4 days",
+      "cost": "500 USD",
+      "description": "All cost such as (Plane tickets, Hotel(4 Star) booking + Breakfast, Private Car rental + Driver(Burmese and English Speaker), Entrance Fees for all locations) are included in this deal."
+    }
   },
   "contact": {
     "footer": {

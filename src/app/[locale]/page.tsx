@@ -1,5 +1,6 @@
 import AboutSection from '@/components/sections/AboutSection'
 import Banner from '@/components/sections/BannerSection'
+import TripPackageSection from '@/components/sections/TripPackageSection'
 import Footer from '@/components/ui/footer/Footer'
 import Navbar from '@/components/ui/navigation/Navbar'
 
@@ -13,6 +14,7 @@ const Home = async () => {
         <div className="w-full items-center justify-items-center min-h-screen">
           <Banner />
           <AboutSection />
+          <TripPackageSection />
         </div>
       </main>
       <Footer />
