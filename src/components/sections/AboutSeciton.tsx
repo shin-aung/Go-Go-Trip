@@ -1,6 +1,4 @@
 import { getTranslations } from 'next-intl/server'
-import { Info, Target, Users, Rocket } from 'lucide-react' // Replace with icons that match your content
-import { JSX } from 'react/jsx-runtime'
 
 type Section = {
   title: string
@@ -12,7 +10,7 @@ const sectionKey = ['sectionOne', 'sectionTwo', 'sectionThree', 'sectionFour']
 const AboutSection = async () => {
   const t = await getTranslations('about')
 
-  const sections: Section[] = sectionKey.map((key, i) => ({
+  const sections: Section[] = sectionKey.map((key) => ({
     title: t(`${key}.title`),
     content: t(`${key}.content`),
   }))
