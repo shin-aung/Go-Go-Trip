@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server'
 import { ImageBannerSection } from '@/assets/images'
 import Image from 'next/image'
+import SplitText from '../ui/animatedText'
 
 const Banner = async () => {
   const t = await getTranslations('banner')
@@ -22,8 +23,8 @@ const Banner = async () => {
 
         <div className="flex">
           <div className="relative z-20 max-w-7xl mx-10 text-white">
-            <h1 className="mt-10 text-7xl md:text-9xl font-bold">
-              {t('title')}
+            <h1 className="mt-10">
+              <SplitText text={t('title')}/>
             </h1>
             <div className="mt-10 md:mt-16">
               <p>{t('description')}</p>

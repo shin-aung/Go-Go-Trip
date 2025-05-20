@@ -3,7 +3,66 @@
     "title": "GO GO TRIP",
     "description": "GO GO TRIP is a private traveling agency which plan trip for family and friends who do not want to go with strangers"
   },
+    "navBar": {
+    "home": "Home",
+    "about": "About",
+    "tripPackages": "Packages"
+  },
   "banner": {
-    "title": "GO GO TRIP"
+    "title": "Explore the World",
+    "description": "Plan unforgettable journeys with your loved ones. We make travel personal, joyful, and easy for families and friends.",
+    "buttontext": "Explore Now"
+  },  
+  "about": {
+    "title": "About Us",
+    "sectionOne": {
+      "title": "Explore the World",
+      "content": "Discover breathtaking destinations handpicked just for you. From sun-kissed beaches to snow-capped mountains, your next adventure awaits."
+    },
+    "sectionTwo": {
+      "title": "Tailor-Made Tours",
+      "content": "Create your dream itinerary with our expert travel planners. Whether you want luxury escapes, budget backpacking, or cultural immersions, we’ve got you covered."
+    },
+    "sectionThree": {
+      "title": "24/7 Support",
+      "content": "Travel with confidence knowing our dedicated support team is available around the clock to help with bookings, changes, or any unexpected hiccups."
+    },
+    "sectionFour": {
+      "title": "Best Price Guarantee",
+      "content": "Get the most value for your money—enjoy competitive pricing on flights, hotels, and experiences, with no hidden fees ever."
+    }
+  },
+  "tripPackages": {
+    "title": "TRIP PACKAGES",
+    "tripPackageOne": {
+      "title": "Thailand to ChiangMai",
+      "dateAndTime": "3 nights/ 4 days",
+      "cost": "500 USD",
+      "description": "All cost such as (Plane tickets, Hotel(4 Star) booking + Breakfast, Private Car rental + Driver(Burmese and English Speaker), Entrance Fees for all locations) are included in this deal."
+    }
+  },
+  "touristAttraction": {
+    "title": "Some of Tourist Attraction",
+    "introduction": "This section highlights one of the most popular tourist destinations in Singapore, offering entertainment, cultural significance, and rich history for visitors from around the world.",
+    "location": "Location",
+    "about": "About",
+    "history": "History",
+    "touristAttractions": {
+      "touristAttractionOne": {
+        "name": "Universal Studio Singapore",
+        "src": "ImageUniversalStudio",
+        "location": "Sentosa Island, Singapore",
+        "about": "A world-class theme park featuring seven themed zones with countless attractions, including roller coasters, live shows, and character meet-and-greets. It caters to all ages and promises an immersive experience for movie lovers.",
+        "history": "The park was part of the $4.5 billion Resorts World Sentosa development and was launched as a key attraction to boost Singapore’s tourism sector. Its design and construction began in 2007 and it quickly became a regional icon after opening in 2010.",
+        "flags": {
+          "flagOne": "FlagSingapore"
+        }
+      }
+    }
+  },
+  "contact": {
+    "footer": {
+      "title": "GO GO TRIP"
+    }
   }
 }
