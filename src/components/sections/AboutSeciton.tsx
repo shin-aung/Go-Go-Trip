@@ -5,12 +5,9 @@ import { JSX } from 'react/jsx-runtime'
 type Section = {
   title: string
   content: string
-  icon: JSX.Element
 }
 
 const sectionKey = ['sectionOne', 'sectionTwo', 'sectionThree', 'sectionFour']
-
-const iconList = [<Info />, <Target />, <Users />, <Rocket />]
 
 const AboutSection = async () => {
   const t = await getTranslations('about')
@@ -18,7 +15,6 @@ const AboutSection = async () => {
   const sections: Section[] = sectionKey.map((key, i) => ({
     title: t(`${key}.title`),
     content: t(`${key}.content`),
-    icon: iconList[i],
   }))
 
   return (
@@ -31,7 +27,6 @@ const AboutSection = async () => {
             className="p-6 border rounded-2xl shadow-md bg-gray-50 hover:shadow-lg transition"
           >
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-6 h-6">{section.icon}</div>
               <h2>{section.title}</h2>
             </div>
             <p>{section.content}</p>

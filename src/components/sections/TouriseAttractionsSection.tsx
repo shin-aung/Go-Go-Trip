@@ -1,7 +1,5 @@
 import { getTranslations } from 'next-intl/server'
 import AttractionCarousel from '../ui/ProjectCarousel'
-import Link from 'next/link'
-import { Button } from '@/components/ui/button'
 
 type TouristAttraction = {
   name: string
