@@ -1,4 +1,4 @@
-import AboutSection from '@/components/sections/AboutSeciton'
+import AboutSection from '@/components/sections/AboutSection'
 import Banner from '@/components/sections/BannerSection'
 import TouristAttractionsSection from '@/components/sections/TouriseAttractionsSection'
 import TripPackageSection from '@/components/sections/TripPackageSection'

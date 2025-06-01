@@ -10,7 +10,7 @@ import Image from 'next/image'
 const Navbar = async () => {
   const t = await getTranslations('navBar')
 
-  const menuList = [{ title: t('home'), url: '#home' }]
+  const menuList = [{ title: t('home'), url: '#home' }, { title: t('about'), url: '#about' }]
 
   return (
     <nav
